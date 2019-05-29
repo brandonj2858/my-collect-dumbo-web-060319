@@ -9,5 +9,6 @@ def my_collect(array)
 end
 
 my_collect(languages) do |langs|
-  lang.upcase
+  return langs.upcase
+end
   
