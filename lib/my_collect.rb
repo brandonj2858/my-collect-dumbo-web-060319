@@ -8,5 +8,6 @@ def my_collect(array)
   collect
 end
 
-my_collect(languages) do 
+my_collect(languages) do |langs|
+  
   
